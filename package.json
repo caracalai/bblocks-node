@@ -18,10 +18,14 @@
   },
   "homepage": "https://gitlab.com/aiblocks/blocks-execution-nodejs#readme",
   "dependencies": {
+    "google-protobuf": "3.17.3",
     "log4js": "6.3.0",
+    "protobufjs": "6.11.2",
     "zeromq": "^6.0.0-beta.6"
   },
   "devDependencies": {
+    "@babel/core": "7.15.0",
+    "@babel/node": "7.14.9",
     "eslint": "7.32.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-airbnb-base": "14.2.1",
