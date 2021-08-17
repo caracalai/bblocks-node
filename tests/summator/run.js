@@ -13,6 +13,8 @@ const runSummator = async () => {
 
   const myCluster = new SummatorCluster('nodejs-service', graph);
   myCluster.start({ serverPort, serverEndpoint });
+
+  setTimeout(() => myCluster.stop(), 4000);
 };
 
 const run = async () => {

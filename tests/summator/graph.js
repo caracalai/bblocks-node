@@ -16,7 +16,7 @@ const graph = {
     'Summator_7c444c17-9311-4b8a-b34b-14534a2f22a5': {
       type: {
         name: 'Summator',
-        fabric: 'python-service',
+        fabric: 'nodejs-service',
       },
     },
   },
