@@ -16,6 +16,7 @@ class GeneratorB extends NodeBase {
   }
 
   stop() {
+    super.stop();
     clearInterval(this.runInterval);
   }
 }

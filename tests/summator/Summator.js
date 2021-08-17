@@ -32,6 +32,7 @@ class Summator extends NodeBase {
   }
 
   async stop() {
+    super.stop();
     clearInterval(this.runInterval);
   }
 }
