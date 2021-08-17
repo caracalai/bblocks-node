@@ -13,6 +13,7 @@
   },
   "author": "",
   "license": "ISC",
+  "private": true,
   "bugs": {
     "url": "https://gitlab.com/aiblocks/blocks-execution-nodejs/issues"
   },
