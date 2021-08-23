@@ -3,7 +3,7 @@ package BasicTypes;
 
 import "google/protobuf/any.proto";
 
-message Message {
+message ProtobufMessage {
   required uint64 id = 1;
   required google.protobuf.Any value = 2;
 }

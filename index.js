@@ -1,8 +1,14 @@
+const { NodeServer } = require('./lib/NodeServer');
+const { ProtobufMessage, NodeBase } = require('./lib/NodeBase');
 const {
+  Image,
+  Message,
+  Camera,
+  Serializer,
+  Tuple,
   BASIC_TYPES,
   TYPE2PROTOBUF_CONSTRUCTOR,
   TYPE2INNER_CLASS_CONSTRUCTOR,
-  Message,
   ImageValue,
   StringValue,
   BooleanValue,
@@ -12,13 +18,12 @@ const {
   TupleValue,
   ListValue,
   Any,
-} = require('./proto/basictypes');
-const { Camera } = require('./Camera');
-const { Image } = require('./Image');
-const { Serializer } = require('./Serializer');
-const { Tuple } = require('./Tuple');
+} = require('./lib/BasicTypes');
+const { NodeCluster } = require('./lib/NodeCluster');
 
 module.exports = {
+  ProtobufMessage,
+  NodeBase,
   Image,
   Camera,
   Serializer,
@@ -26,7 +31,6 @@ module.exports = {
   BASIC_TYPES,
   TYPE2PROTOBUF_CONSTRUCTOR,
   TYPE2INNER_CLASS_CONSTRUCTOR,
-  Message,
   ImageValue,
   StringValue,
   BooleanValue,
@@ -36,4 +40,7 @@ module.exports = {
   TupleValue,
   ListValue,
   Any,
+  NodeCluster,
+  NodeServer,
+  Message,
 };

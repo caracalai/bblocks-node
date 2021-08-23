@@ -1,6 +1,6 @@
 {
   "name": "blocks-execution-nodejs",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Broutonblocks execution NodeJS library",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+ssh://git@gitlab.com/aiblocks/blocks-execution-nodejs.git"
   },
-  "author": "",
+  "author": "Tikhon Zaikin",
   "license": "ISC",
   "private": true,
   "bugs": {
