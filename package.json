@@ -9,15 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/aiblocks/blocks-execution-nodejs.git"
+    "url": "git+ssh://git@github.com/BroutonBlocks/bblocks-node.git"
   },
   "author": "Tikhon Zaikin",
   "license": "MIT",
-  "private": true,
   "bugs": {
-    "url": "https://gitlab.com/aiblocks/blocks-execution-nodejs/issues"
+    "url": "https://github.com/BroutonBlocks/bblocks-node/issues"
   },
-  "homepage": "https://gitlab.com/aiblocks/blocks-execution-nodejs#readme",
+  "homepage": "https://github.com/BroutonBlocks/bblocks-node#readme",
   "dependencies": {
     "google-protobuf": "3.17.3",
     "log4js": "6.3.0",
