@@ -1,7 +1,7 @@
 {
-  "name": "blocks-execution-nodejs",
+  "name": "bblocks-node",
   "version": "0.0.6",
-  "description": "Broutonblocks execution NodeJS library",
+  "description": "BroutonBlocks execution NodeJS library",
   "main": "index.js",
   "scripts": {
     "test": "jest",
