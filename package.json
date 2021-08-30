@@ -12,7 +12,7 @@
     "url": "git+ssh://git@gitlab.com/aiblocks/blocks-execution-nodejs.git"
   },
   "author": "Tikhon Zaikin",
-  "license": "ISC",
+  "license": "MIT",
   "private": true,
   "bugs": {
     "url": "https://gitlab.com/aiblocks/blocks-execution-nodejs/issues"
