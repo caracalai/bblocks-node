@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/BroutonBlocks/bblocks-node.git"
   },
-  "author": "Tikhon Zaikin",
+  "author": "BroutonLab",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/BroutonBlocks/bblocks-node/issues"
