@@ -4,7 +4,7 @@
   "description": "Broutonblocks execution NodeJS library",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_PATH=. node tests/tests.js",
+    "test": "jest",
     "start": "NODE_PATH=. node main.js"
   },
   "repository": {

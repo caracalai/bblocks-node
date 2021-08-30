@@ -1,8 +1,13 @@
 # bblocks-node
 BroutonBlocks for Node.js
 
-# Tests
+# Installing dependencies
 
 ```
-jest
+yarn
+```
+
+# Tests
+```
+yarn test
 ```
