@@ -14,7 +14,7 @@ const {
   Image,
 } = require('../../index');
 
-test('Integer serializer test', () => {
+test('Integer types test', () => {
   const int = 1;
   const intValue = new IntValue();
   intValue.setValue(int);
@@ -22,7 +22,7 @@ test('Integer serializer test', () => {
   expect(Serializer.deserializeValue(intValue)).toBe(int);
 });
 
-test('Float serializer test', () => {
+test('Float types test', () => {
   const float = 1.2;
   const floatValue = new FloatValue();
   floatValue.setValue(float);
@@ -30,7 +30,7 @@ test('Float serializer test', () => {
   expect(Serializer.deserializeValue(floatValue)).toBe(float);
 });
 
-test('String serializer test', () => {
+test('String types test', () => {
   const string = 'Test string';
   const stringValue = new StringValue();
   stringValue.setValue(string);
@@ -38,7 +38,7 @@ test('String serializer test', () => {
   expect(Serializer.deserializeValue(stringValue)).toBe(string);
 });
 
-test('Boolean serializer test', () => {
+test('Boolean types test', () => {
   const bool = true;
   const booleanValue = new BooleanValue();
   booleanValue.setValue(bool);
@@ -46,7 +46,7 @@ test('Boolean serializer test', () => {
   expect(Serializer.deserializeValue(booleanValue)).toBe(bool);
 });
 
-test('Camera serializer test', () => {
+test('Camera types test', () => {
   const url = 'URL';
   const camera = new Camera({
     url,
@@ -57,7 +57,7 @@ test('Camera serializer test', () => {
   expect(Serializer.deserializeValue(cameraValue)).toStrictEqual(camera);
 });
 
-test('Image serializer test', () => {
+test('Image types test', () => {
   const data = 'imageData';
   const width = 1200;
   const height = 700;

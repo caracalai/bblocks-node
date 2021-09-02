@@ -18,6 +18,7 @@ const {
   TupleValue,
   ListValue,
   Any,
+  BasicType,
 } = require('./lib/BasicTypes');
 const { NodeCluster } = require('./lib/NodeCluster');
 
@@ -43,4 +44,5 @@ module.exports = {
   NodeCluster,
   NodeServer,
   Message,
+  BasicType,
 };
