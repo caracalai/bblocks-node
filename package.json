@@ -1,6 +1,6 @@
 {
   "name": "bblocks-node",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "BroutonBlocks execution NodeJS library",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "author": "BroutonLab",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BroutonBlocks/bblocks-node/issues"
+    "url": "https://github.com/BroutonBlocks/bblocks-node/issues"g
   },
   "homepage": "https://github.com/BroutonBlocks/bblocks-node#readme",
   "dependencies": {
